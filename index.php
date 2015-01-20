@@ -34,11 +34,26 @@
                         
                         <div class="panel-body">
                             <table class="table table-bordered table-responsive">
-                                <tr><td><a href="">Hello</a></td></tr>
-                                <tr><td><a href="">Hello</a></td></tr>
-                                <tr><td><a href="">Hello</a></td></tr>
-                                <tr><td><a href="">Hello</a></td></tr>
-                                <tr><td><a href="">Hello</a></td></tr>
+
+                                <?php
+
+                                $path = ".";
+
+                                $filenames = scandir($path);
+
+                                if (scandir($path) == false) {
+                                    echo "something went terribly wrong.";
+                                }
+                                else {
+                                    for ($i=0; $i < count($filenames); $i++) {
+                                        if ($filenames[$i] !== "." && $filenames[$i] !== ".." && $filenames[$i] !== ".DS_Store") {
+
+                                            echo '<tr><td><a href="../' . $filenames[$i] . '">' . $filenames[$i] . '</a></td></tr>';
+                                        }
+                                    }
+                                }
+
+                                ?>
                             </table>
                         </div>
                     </div>
