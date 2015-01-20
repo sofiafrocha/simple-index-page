@@ -15,7 +15,7 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/font-awesome.min.css">
-        <link href='http://fonts.googleapis.com/css?family=Arvo:700' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Arvo:700' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/style.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
@@ -48,7 +48,7 @@
                                     for ($i=0; $i < count($filenames); $i++) {
                                         if ($filenames[$i] !== "." && $filenames[$i] !== ".." && $filenames[$i] !== ".DS_Store") {
 
-                                            echo '<tr><td><a href="../' . $filenames[$i] . '">' . $filenames[$i] . '</a></td></tr>';
+                                            echo '<tr><td><a href="' .$path . "/" . $filenames[$i] . '">' . $filenames[$i] . '</a></td></tr>';
                                         }
                                     }
                                 }
@@ -59,8 +59,8 @@
                     </div>
 
                     <div class="logos">
-                        <a href="" id="behance"><i class="fa fa-behance fa-2x"></i></a>
-                        <a href="" id="github"><i class="fa fa-github fa-2x"></i></a>
+                        <a href="https://www.behance.net/sofiafrocha" id="behance"><i class="fa fa-behance fa-2x"></i></a>
+                        <a href="https://github.com/sofiafrocha" id="github"><i class="fa fa-github fa-2x"></i></a>
                     </div>
 
                 </div>
