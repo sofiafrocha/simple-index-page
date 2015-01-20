@@ -35,10 +35,15 @@
 }
 
 .container-fluid .main .content .logos a i{
-	color: white;
+	color: #F9F9F9;
 	opacity: 0.9;
 }
 
 #behance {
 	margin-right: 15px;
+}
+
+.container-fluid .main .content .logos a i:hover{
+	color: #E3E3E3;
+	opacity: 0.9;
 }
