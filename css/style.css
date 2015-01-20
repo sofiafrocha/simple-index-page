@@ -14,7 +14,7 @@
 	margin-top: 0;
 
 	text-align: center;
-	font-size: 70px;
+	font-size: 74px;
 
 	font-family: 'Arvo', serif;
 	color: #F9F9F9;
@@ -23,9 +23,19 @@
 	text-shadow: 1px 1px 1px #CC5E3E;
 }
 
+@media(max-width:767px) {
+	#title {
+		font-size: 60px;
+	}
+}
+
 .container-fluid .main .content .panel {
 	margin-top: 36px;
 	opacity: 0.95;
+}
+
+.container-fluid .main .content .panel .panel-body table tr td a{
+	font-size: 16px;
 }
 
 
