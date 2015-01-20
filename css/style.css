@@ -1,0 +1,22 @@
+.container-fluid .main {
+	height: 100vh;
+	background-image: url("../img/pattern.png");
+	background-repeat: ;
+}
+
+.container-fluid .main .content {
+	position: relative;
+ 	top: 50%;
+ 	transform: translateY(-50%);
+}
+
+#title {
+	margin-top: 0;
+
+	text-align: center;
+	font-size: 40px;
+}
+
+.container-fluid .main .content .logos {
+	text-align: center;
+}

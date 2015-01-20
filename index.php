@@ -15,6 +15,7 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body>
@@ -23,21 +24,31 @@
         <![endif]-->
 
         <div class="container-fluid">
-            <div class="row">
-                <div class="col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-4">
-                    <h1>Hello world!</h1>
+            <div class="row main">
+                <div class="col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-4 content">
 
-                    <table class="table table-bordered">
-                        <tr><td>Hello</td></tr>
-                        <tr><td>Hello</td></tr>
-                        <tr><td>Hello</td></tr>
-                        <tr><td>Hello</td></tr>
-                        <tr><td>Hello</td></tr>
-                        <tr><td>Hello</td></tr>
-                    </table>
+                    <h1 id="title">Hello world!</h1>
 
-                    <i class="fa fa-behance fa-2x"></i>
-                    <i class="fa fa-github fa-2x"></i>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h5>Folders</h5>
+                        </div>
+                        <div class="panel-body">
+                            <table class="table table-bordered table-responsive">
+                                <tr><td><a href="">Hello</a></td></tr>
+                                <tr><td><a href="">Hello</a></td></tr>
+                                <tr><td><a href="">Hello</a></td></tr>
+                                <tr><td><a href="">Hello</a></td></tr>
+                                <tr><td><a href="">Hello</a></td></tr>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="logos">
+                        <a href=""><i class="fa fa-behance fa-2x"></i></a>
+                        <a href=""><i class="fa fa-github fa-2x"></i></a>
+                    </div>
+
                 </div>
             </div>
         </div>
