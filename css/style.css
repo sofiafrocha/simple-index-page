@@ -1,7 +1,7 @@
 .container-fluid .main {
 	height: 100vh;
-	background-image: url("../img/pattern.png");
-	background-repeat: ;
+	background-image: url("../img/autumn-leaves.jpg");
+	background-size: cover;
 }
 
 .container-fluid .main .content {
@@ -14,9 +14,31 @@
 	margin-top: 0;
 
 	text-align: center;
-	font-size: 40px;
+	font-size: 70px;
+
+	font-family: 'Arvo', serif;
+	color: #F9F9F9;
+	opacity: 0.95;
+
+	text-shadow: 1px 1px 1px #CC5E3E;
 }
 
+.container-fluid .main .content .panel {
+	margin-top: 36px;
+	opacity: 0.95;
+}
+
+
 .container-fluid .main .content .logos {
+	margin-top: 40px;
 	text-align: center;
+}
+
+.container-fluid .main .content .logos a i{
+	color: white;
+	opacity: 0.9;
+}
+
+#behance {
+	margin-right: 15px;
 }

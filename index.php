@@ -15,6 +15,7 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link href='http://fonts.googleapis.com/css?family=Arvo:700' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/style.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
@@ -25,14 +26,12 @@
 
         <div class="container-fluid">
             <div class="row main">
-                <div class="col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-4 content">
+                <div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-4 content">
 
                     <h1 id="title">Hello world!</h1>
 
                     <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h5>Folders</h5>
-                        </div>
+                        
                         <div class="panel-body">
                             <table class="table table-bordered table-responsive">
                                 <tr><td><a href="">Hello</a></td></tr>
@@ -45,8 +44,8 @@
                     </div>
 
                     <div class="logos">
-                        <a href=""><i class="fa fa-behance fa-2x"></i></a>
-                        <a href=""><i class="fa fa-github fa-2x"></i></a>
+                        <a href="" id="behance"><i class="fa fa-behance fa-2x"></i></a>
+                        <a href="" id="github"><i class="fa fa-github fa-2x"></i></a>
                     </div>
 
                 </div>
