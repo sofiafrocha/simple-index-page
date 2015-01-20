@@ -48,7 +48,12 @@
                                     for ($i=0; $i < count($filenames); $i++) {
                                         if ($filenames[$i] !== "." && $filenames[$i] !== ".." && $filenames[$i] !== ".DS_Store") {
 
-                                            echo '<tr><td><a href="' .$path . "/" . $filenames[$i] . '">' . $filenames[$i] . '</a></td></tr>';
+                                            //don't show the folders being used by the index page
+                                            if ($filenames[$i] !== "css" && $filenames[$i] !== "fonts" && $filenames[$i] !== "js" && $filenames[$i] !== "img" && $filenames[$i] !== "index.php") {
+                                                # code...
+                                            
+                                                echo '<tr><td><a href="' .$path . "/" . $filenames[$i] . '">' . $filenames[$i] . '</a></td></tr>';
+                                            }
                                         }
                                     }
                                 }
