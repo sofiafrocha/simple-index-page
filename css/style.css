@@ -1,7 +1,10 @@
-.container-fluid .main {
-	height: 100vh;
+body {
 	background-image: url("../img/autumn-leaves.jpg");
 	background-size: cover;
+}
+
+.container-fluid .main {
+	height: 100vh;
 }
 
 .container-fluid .main .content {
@@ -14,7 +17,7 @@
 	margin-top: 0;
 
 	text-align: center;
-	font-size: 74px;
+	font-size: 90px;
 
 	font-family: 'Arvo', serif;
 	color: #F9F9F9;
@@ -25,7 +28,7 @@
 
 @media(max-width:767px) {
 	#title {
-		font-size: 60px;
+		font-size: 70px;
 	}
 }
 

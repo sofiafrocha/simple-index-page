@@ -25,50 +25,61 @@
         <![endif]-->
 
         <div class="container-fluid">
-            <div class="row main">
-                <div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-4 content">
+            <div class="main">
 
-                    <h1 id="title">Hello world!</h1>
-
-                    <div class="panel panel-default">
-                        
-                        <div class="panel-body">
-                            <table class="table table-bordered table-responsive">
-
-                                <?php
-
-                                $path = ".";
-
-                                $filenames = scandir($path);
-
-                                if (scandir($path) == false) {
-                                    echo "something went terribly wrong.";
-                                }
-                                else {
-                                    for ($i=0; $i < count($filenames); $i++) {
-                                        if ($filenames[$i] !== "." && $filenames[$i] !== ".." && $filenames[$i] !== ".DS_Store") {
-
-                                            //don't show the folders being used by the index page
-                                            if ($filenames[$i] !== "css" && $filenames[$i] !== "fonts" && $filenames[$i] !== "js" && $filenames[$i] !== "img" && $filenames[$i] !== "index.php") {
-                                                # code...
-                                            
-                                                echo '<tr><td><a href="' .$path . "/" . $filenames[$i] . '">' . $filenames[$i] . '</a></td></tr>';
-                                            }
-                                        }
-                                    }
-                                }
-
-                                ?>
-                            </table>
+                <div class="content">
+                    
+                    <div class="row">
+                        <div class="col-xs-10 col-xs-offset-1">
+                            <h1 id="title">Hello<br> world!</h1>
                         </div>
                     </div>
 
-                    <div class="logos">
-                        <a href="https://www.behance.net/sofiafrocha" id="behance"><i class="fa fa-behance fa-2x"></i></a>
-                        <a href="https://github.com/sofiafrocha" id="github"><i class="fa fa-github fa-2x"></i></a>
+                    <div class="row">
+                        <div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-4 col-lg-2 col-lg-offset-5">
+                        
+                            <div class="panel panel-default">
+                                <div class="panel-body">
+                                    <table class="table table-bordered table-responsive">
+
+                                        <?php
+
+                                        $path = ".";
+
+                                        $filenames = scandir($path);
+
+                                        if (scandir($path) == false) {
+                                            echo "something went terribly wrong.";
+                                        }
+                                        else {
+                                            for ($i=0; $i < count($filenames); $i++) {
+                                                if ($filenames[$i] !== "." && $filenames[$i] !== ".." && $filenames[$i] !== ".DS_Store") {
+
+                                                    //don't show the folders being used by the index page
+                                                    if ($filenames[$i] !== "css" && $filenames[$i] !== "fonts" && $filenames[$i] !== "js" && $filenames[$i] !== "img" && $filenames[$i] !== "index.php") {
+                                                        # code...
+                                                    
+                                                        echo '<tr><td><a href="' .$path . "/" . $filenames[$i] . '">' . $filenames[$i] . '</a></td></tr>';
+                                                    }
+                                                }
+                                            }
+                                        }
+
+                                        ?>
+                                    </table>
+                                </div>
+                            </div>
+
+                            <div class="logos">
+                                <a href="https://www.behance.net/sofiafrocha" id="behance"><i class="fa fa-behance fa-2x"></i></a>
+                                <a href="https://github.com/sofiafrocha" id="github"><i class="fa fa-github fa-2x"></i></a>
+                            </div>
+
+                        </div>
                     </div>
 
                 </div>
+                    
             </div>
         </div>
 
