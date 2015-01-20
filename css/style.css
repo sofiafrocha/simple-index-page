@@ -41,9 +41,16 @@ body {
 	font-size: 16px;
 }
 
+.container-fluid .main .content .panel .panel-body table tr td i{
+	margin-right: 4px;
+	margin-left: 5px;
+	color: #808080;
+	opacity: 0.9;
+}
+
 
 .container-fluid .main .content .logos {
-	margin-top: 40px;
+	margin-top: 42px;
 	text-align: center;
 }
 

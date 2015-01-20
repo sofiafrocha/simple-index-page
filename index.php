@@ -59,7 +59,8 @@
                                                     if ($filenames[$i] !== "css" && $filenames[$i] !== "fonts" && $filenames[$i] !== "js" && $filenames[$i] !== "img" && $filenames[$i] !== "index.php") {
                                                         # code...
                                                     
-                                                        echo '<tr><td><a href="' .$path . "/" . $filenames[$i] . '">' . $filenames[$i] . '</a></td></tr>';
+                                                        echo '<tr><td><i class="fa fa-folder-o folder-icon"></i>
+<a href="' .$path . "/" . $filenames[$i] . '">' . $filenames[$i] . '</a></td></tr>';
                                                     }
                                                 }
                                             }
