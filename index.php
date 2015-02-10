@@ -32,6 +32,7 @@
                     <div class="row">
                         <div class="col-xs-10 col-xs-offset-1">
                             <h1 id="title">Hello<br> world!</h1>
+                            <h4>I'm Sofia, a design and multimedia student.<br>Here are some recent (possibly wip) projects:</h4>
                         </div>
                     </div>
 
@@ -72,6 +73,7 @@
                             </div>
 
                             <div class="logos">
+                                <h5>You can also find me here:</h5>
                                 <a href="https://www.behance.net/sofiafrocha" id="behance"><i class="fa fa-behance fa-2x"></i></a>
                                 <a href="https://github.com/sofiafrocha" id="github"><i class="fa fa-github fa-2x"></i></a>
                             </div>

@@ -26,6 +26,19 @@ body {
 	text-shadow: 1px 1px 1px #CC5E3E;
 }
 
+h4 {
+	text-align: center;
+	color: #FEFEFE;
+	font-size: 15px;
+	opacity: 0.85;
+	font-weight: 400;
+	font-family: 'Arvo', serif;
+
+	padding-top: 10px;
+
+	text-shadow: 1px 1px 1px #CC5E3E;
+}
+
 @media(max-width:767px) {
 	#title {
 		font-size: 70px;
@@ -57,6 +70,14 @@ body {
 .container-fluid .main .content .logos a i{
 	color: #F9F9F9;
 	opacity: 0.9;
+}
+
+h5 {
+	text-align: center;
+	font-family: 'Arvo', serif;
+	opacity: 0.9;
+	color: #FEFEFE;
+	text-shadow: 1px 1px 1px #CC5E3E;
 }
 
 #behance {
