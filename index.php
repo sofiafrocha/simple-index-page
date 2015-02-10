@@ -32,12 +32,12 @@
                     <div class="row">
                         <div class="col-xs-10 col-xs-offset-1">
                             <h1 id="title">Hello<br> world!</h1>
-                            <h4>I'm Sofia, a design and multimedia student.<br>Here are some recent (possibly wip) projects:</h4>
+                            <h4 id="description">I'm Sofia, a design and multimedia student.<br>Here are some recent (possibly wip) projects:</h4>
                         </div>
                     </div>
 
                     <div class="row">
-                        <div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-4 col-lg-2 col-lg-offset-5">
+                        <div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-4 col-lg-3 col-lg-offset-4 col-centered">
                         
                             <div class="panel panel-default">
                                 <div class="panel-body">
@@ -73,7 +73,7 @@
                             </div>
 
                             <div class="logos">
-                                <h5>You can also find me here:</h5>
+                                <h4>But wait! There's more:</h4>
                                 <a href="https://www.behance.net/sofiafrocha" id="behance"><i class="fa fa-behance fa-2x"></i></a>
                                 <a href="https://github.com/sofiafrocha" id="github"><i class="fa fa-github fa-2x"></i></a>
                             </div>

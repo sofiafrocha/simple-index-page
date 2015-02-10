@@ -34,15 +34,22 @@ h4 {
 	font-weight: 400;
 	font-family: 'Arvo', serif;
 
-	padding-top: 10px;
-
 	text-shadow: 1px 1px 1px #CC5E3E;
+}
+
+#description {
+	padding-top: 10px;
 }
 
 @media(max-width:767px) {
 	#title {
 		font-size: 70px;
 	}
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
 }
 
 .container-fluid .main .content .panel {
@@ -70,14 +77,6 @@ h4 {
 .container-fluid .main .content .logos a i{
 	color: #F9F9F9;
 	opacity: 0.9;
-}
-
-h5 {
-	text-align: center;
-	font-family: 'Arvo', serif;
-	opacity: 0.9;
-	color: #FEFEFE;
-	text-shadow: 1px 1px 1px #CC5E3E;
 }
 
 #behance {
